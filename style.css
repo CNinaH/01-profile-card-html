@@ -1,0 +1,202 @@
+body {
+  background-color: #463e50;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #b4c5e4;
+}
+
+h2 {
+  font-size: 1.8em;
+  color: #839791;
+}
+
+h3 {
+  color: #839791;
+  font-size: 1.4em;
+}
+
+p {
+  color: #fff;
+  line-height: 1.7;
+  font-size: 1em;
+}
+
+.profile-card {
+  background: #2f394d;
+  border-radius: 18px;
+  border: 2px solid white;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+  max-width: 650px;
+  margin: 38px auto;
+  padding: 2.5em 2em;
+  text-align: center;
+}
+
+.profile-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 1em;
+}
+
+.profile-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 1.2em 0 0 0;
+}
+
+.profile-card ul li {
+  margin-bottom: 0.7em;
+}
+
+.profile-card ul a {
+  color: #b4c5e4;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.profile-card ul a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.skills-card {
+  background: #2f394d;
+  border-radius: 16px;
+  border: 2px solid #ffffff;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  max-width: 650px;
+  margin: 24px auto 0 auto;
+  padding: 2em 2em 1.5em 2em;
+  text-align: center;
+  font-family: 'Fira Sans', 'Segoe UI', Arial, sans-serif;
+}
+
+.skills-card h3 {
+  color: #b4c5e4;
+  margin-bottom: 1em;
+  font-size: 2em;
+}
+
+.skills-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills-card ul li {
+  color: #fff;
+  font-size: 1.05em;
+  margin-bottom: 0.5em;
+  display: inline-block;
+  background: #56666b;
+  border-radius: 8px;
+  padding: 0.4em 1em;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+}
+
+.skills-card ul + h3,
+.skills-card h3 + ul {
+  margin-top: 1.5em;
+}
+
+.skills-card ul a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s, background 0.2s;
+  padding: 0.3em 0.8em;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.skills-card ul a:hover {
+  color: #fff;
+  background: #839791;
+  text-decoration: underline;
+}
+
+.footer-container {
+  max-width: 650px;
+  margin: 32px auto 0 auto;
+  padding: 0;
+}
+
+footer {
+  text-align: center;
+  color: #b4c5e4;
+  font-size: 1em;
+  padding: 1em 0;
+  background: transparent;
+  letter-spacing: 0.5px;
+}
+
+.more-card {
+  background: #2f394d;
+  border-radius: 16px;
+  border: 2px solid #ffffff;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  max-width: 650px;
+  margin: 24px auto 0 auto;
+  padding: 2em 2em 1.5em 2em;
+  text-align: center;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+}
+
+.more-card h3 {
+  color: #839791;
+  margin-bottom: 1em;
+  font-size: 2em;
+}
+
+.more-card h4 {
+  color: #b4c5e4;
+  font-size: 1.6em;
+  margin-bottom: 0.8em;
+  margin-top: 0.5em;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.more-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1em 0;
+}
+
+.more-card ul li {
+  color: #fff;
+  font-size: 1.05em;
+  margin-bottom: 0.5em;
+  display: inline-block;
+  background: #56666b;
+  border-radius: 8px;
+  padding: 0.4em 1em;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+}
+
+.more-card ul a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s, background 0.2s;
+  padding: 0.3em 0.8em;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.more-card ul a:hover {
+  color: #fff;
+  background: #839791;
+  text-decoration: underline;
+}
